@@ -12,7 +12,7 @@
 **仓库文件结构**
 以[xdmvteam/TMC](https://github.com/xdmvteam/TMC)为模板
 
-## 🔤 数据集预处理约定
+## 🔤 多视角数据集预处理约定
 
 多视角python数据格式约定：
 ```python
@@ -22,6 +22,6 @@
     [int, int, ...]  # 每个样本的标签
 ]
 ```
-对于多视角数据集，不论来源，不论格式，一律预处理为上述python格式，训练、测试、验证集分别保存为文件。
+在实验进行前，多视角数据集一律预处理为上述python格式，训练、测试、验证集分别保存为文件，以供模型训练/测试。
 
-预处理方式可参考[xdmvteam/TMC/dataset](https://github.com/xdmvteam/TMC/tree/main/dataset)。
+预处理方式可参照[xdmvteam/TMC/dataset](https://github.com/xdmvteam/TMC/tree/main/dataset)。
